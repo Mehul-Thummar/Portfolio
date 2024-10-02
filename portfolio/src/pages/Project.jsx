@@ -1,14 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
-const Home = () => {
+const Project = () => {
     return (
         <div>
             <Navbar />
-            <Footer />
+            <h1>Project</h1>
         </div>
     )
 }
 
-export default Home
+export default Project
