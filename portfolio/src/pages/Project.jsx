@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
+import ProjectCard from '../components/ProjectCard';
+import Footer from '../components/Footer';
 
 const Project = () => {
     return (
         <div>
             <Navbar />
-            <h1>Project</h1>
+            <ProjectCard />
+            <Footer />
         </div>
     )
 }
