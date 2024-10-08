@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <footer class="w-full py-14">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div class="max-w-3xl mx-auto">
+                    <div class="max-w-3xl mx-auto space-y-3">
                         <div class="text-lg text-center flex-col space-y-4 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-7 border-b border-gray-200">
                             <h1 className='text-2xl font-bold '>Contact Me</h1>
                             <div className='text-start space-y-3'>
@@ -31,6 +31,10 @@ const Footer = () => {
                             <a href="https://www.hackerrank.com/" target="_blank" class=" text-gray-900 ">
                                 <SiHackerrank class="size-8 text-black  dark:text-black hover:scale-110 duration-500" />
                             </a>
+                        </div>
+                        <div className='flex justify-center space-x-3 h-5 hover:scale-110 duration-500'>
+                            <h1 className='font-semibold text-sm text-[#343130]'>Email :</h1>
+                            <h1 className='font-semibold text-sm text-[#343130]'>thummarmehul114@gmail.com</h1>
                         </div>
                     </div>
                 </div>

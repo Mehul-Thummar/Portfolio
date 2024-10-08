@@ -36,7 +36,7 @@ const ProjectCard = () => {
                         <div class="relative bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
                             <div class="max-w-72 p-6">
                                 <a href="" >
-                                    <img class="rounded-lg mb-4 h-40" src="https://www.godaddy.com/resources/wp-content/uploads/2023/10/efficient-blogging-featured-0xCixi.tmp_.jpeg?size=3840x0" alt="" />
+                                    <img class="rounded-lg mb-4 h-40" src="https://www.teamly.com/blog/wp-content/uploads/2022/02/Project-Management-Blogs.png" alt="" />
                                 </a>
                                 <div className='flex items-end space-x-2'>
                                     <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">MyBlog List</h5>
