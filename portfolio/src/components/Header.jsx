@@ -1,4 +1,5 @@
 import React from 'react'
+import pdf from '../assets/Resume.pdf'
 
 const Header = () => {
     return (
@@ -9,7 +10,14 @@ const Header = () => {
                         <h1 className='font-extrabold text-[#332e2e] text-3xl leading-8 pb-2 '>I am Mehul Thummar</h1>
                         <h1 className='font-serif text-[#332e2e] text-xs leading-4 pb-2 border-b border-dashed border-y-green-700'>Freelance MERN stack developer specialising in tailwind css and components design.</h1>
                         <div>
-                            <a href="../Resume.pdf" target="_blank" >
+                            <a
+                                href={pdf}
+                                target="_blank"
+                                download="resume.pdf"
+                                onClick={(e) => {
+                                    window.open(pdf, '_blank')
+                                }}
+                            >
                                 <button type="button" download="../Resume.pdf"
                                     class="text-white bg-black font-medium rounded-lg text-sm px-3 py-1 text-center ">Download</button>
                             </a>
