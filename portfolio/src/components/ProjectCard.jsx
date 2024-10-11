@@ -5,8 +5,13 @@ import { FaGithub } from "react-icons/fa6";
 
 const ProjectCard = () => {
     return (
-        <div>
-            <div class=" flex justify-center relative overflow-hidden sm:py-12">
+        <div className="mx-auto px-4 sm:container">
+            <div className="border-l-[5px] border-pink-600  border-primary pl-5">
+                <h2 className="mb-2 text-2xl font-semibold text-dark dark:text-white">
+                    Task's
+                </h2>
+            </div>
+            <div class=" flex justify-center relative overflow-hidden sm:py-5">
                 <div class="relative group">
                     <div class="max-w-7xl mx-auto">
                         <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>

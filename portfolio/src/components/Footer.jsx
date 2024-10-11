@@ -7,7 +7,7 @@ import { SiHackerrank } from "react-icons/si";
 const Footer = () => {
     return (
         <div>
-            <footer class="w-full py-14" >
+            <footer class="w-full py-10" >
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="max-w-3xl mx-auto space-y-3">
                         <div class="text-lg text-center flex-col space-y-4 md:flex-row md:gap-12 transition-all duration-500 py-6 mb-7 border-b border-gray-200">

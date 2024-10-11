@@ -1,59 +1,21 @@
 import React from 'react'
-import { BiLogoTypescript } from 'react-icons/bi';
-import { DiMongodb, DiNodejs } from 'react-icons/di';
-import { FaBootstrap, FaCss3, FaCss3Alt, FaHtml5, FaNodeJs, FaSass } from "react-icons/fa";
+import { FaBootstrap, FaCss3Alt, FaHtml5, FaNodeJs, FaSass } from "react-icons/fa";
 import { RiNextjsFill, RiReactjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import { SiJavascript, SiJquery, SiMongodb, SiMysql, SiTypescript } from 'react-icons/si';
+import { SiAdobeaudition, SiAdobephotoshop, SiAdobepremierepro, SiJavascript, SiJquery, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoftword, SiMongodb, SiMysql, SiTypescript } from 'react-icons/si';
+import { VscVscode } from 'react-icons/vsc';
 
-const About = () => {
+const Skill = () => {
     return (
         <div>
             <div className=" flex justify-center">
                 <div className="mx-auto px-4 sm:container">
-                    <div className="border-l-[5px] border-pink-600  border-primary pl-5">
-                        <h2 className="mb-2 text-2xl font-semibold text-dark dark:text-white">
-                            Education
+                    <div className="border-l-[5px] border-pink-600 mt-20 border-primary pl-5">
+                        <h2 className=" text-2xl font-semibold text-dark dark:text-white">
+                            Technical Skill's
                         </h2>
                     </div>
-
-                    <div className=''>
-
-                        <div class="flex justify-center items-center dark:bg-gray-800">
-                            <div class="relative cursor-pointer dark:text-white">
-                                <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
-                                <div
-                                    class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg ">
-                                    <div class="flex items-center">
-                                        <h3 class="my-2 ml-3 text-lg font-bold text-gray-800 dark:text-white">Diploma In Co-Op. Manage.</h3>
-                                    </div>
-                                    <p class="text-gray-600 dark:text-gray-300">
-                                        I graduated from Gujarat State <br /> Co-Op. Union  in 2019.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="flex justify-center items-center dark:bg-gray-800">
-                            <div class="relative cursor-pointer dark:text-white hover:ml-32 hover:mt-5 duration-500 ">
-                                <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
-                                <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
-                                    <div class="flex items-center">
-                                        <h3 class="my-2 ml-3 text-lg font-bold text-gray-800 dark:text-white">HSC</h3>
-                                    </div>
-                                    <p class="text-gray-600 dark:text-gray-300">
-                                        In 2017, I finish my 12th year. <br /> from Akhil Bharat Open Schooling.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="border-l-[5px] border-pink-600  border-primary pl-5">
-                        <h2 className="mb-2 text-2xl font-semibold text-dark dark:text-white">
-                            Technical Skill
-                        </h2>
-                    </div>
-                    <div class=" w-full px-4 pt-16 pb-16" id="faq">
-                        <div class="mx-auto w-full max-w-4xl  justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7 gap-3">
+                    <div class=" w-full px-4 pt-12 pb-16" id="faq">
+                        <div class="mx-auto w-full max-w-4xl  justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
 
                             {/* html */}
                             <div class="flex justify-center items-center dark:bg-gray-800">
@@ -92,20 +54,6 @@ const About = () => {
                                             <h1 className='font-bold text-xs text-center'>BOOSTRAP</h1>
                                             <div className='flex justify-center'>
                                                 <FaBootstrap class="size-16 text-[#7d0af8] " />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Sass */}
-                            <div class="flex justify-center items-center dark:bg-gray-800">
-                                <div class="relative cursor-pointer dark:text-white ">
-                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
-                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
-                                        <div className='' >
-                                            <h1 className='font-bold text-xs text-center'>SASS</h1>
-                                            <div className='flex justify-center'>
-                                                <FaSass class="size-16 text-[#cd6799] " />
                                             </div>
                                         </div>
                                     </div>
@@ -162,20 +110,6 @@ const About = () => {
                                             <h1 className='font-bold text-xs text-center'>NEXT.JS</h1>
                                             <div className='flex justify-center'>
                                                 <RiNextjsFill class="size-16 text-black " />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* jQuery */}
-                            <div class="flex justify-center items-center dark:bg-gray-800">
-                                <div class="relative cursor-pointer dark:text-white ">
-                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
-                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
-                                        <div className='' >
-                                            <h1 className='font-bold text-xs text-center'>jQUERY</h1>
-                                            <div className='flex justify-center'>
-                                                <SiJquery class="size-16 text-[#0773b4] " />
                                             </div>
                                         </div>
                                     </div>
@@ -252,13 +186,141 @@ const About = () => {
                         </div>
                     </div>
 
+                    <div className="border-l-[5px] border-pink-600  border-primary pl-5">
+                        <h2 className=" text-2xl font-semibold text-dark dark:text-white">
+                            Soft Skill's
+                        </h2>
+                    </div>
+                    <div class=" w-full px-4 pt-12 pb-16" id="faq">
+                        <div class="mx-auto w-full max-w-4xl  justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-8 gap-3">
+
+                            {/* Photoshop */}
+                            <div class="flex justify-center items-center dark:bg-gray-800">
+                                <div class="relative cursor-pointer dark:text-white ">
+                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
+                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
+                                        <div className='' >
+                                            <h1 className='font-bold text-xs text-center'>Adobe <br />Photoshop</h1>
+                                            <div className='flex justify-center'>
+                                                <SiAdobephotoshop class="size-16 text-[#001833] bg-[#2babfb] rounded-3xl " />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Premiere */}
+                            <div class="flex justify-center items-center dark:bg-gray-800">
+                                <div class="relative cursor-pointer dark:text-white ">
+                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
+                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
+                                        <div className='' >
+                                            <h1 className='font-bold text-xs text-center'>Adobe <br /> Premiere</h1>
+                                            <div className='flex justify-center'>
+                                                <SiAdobepremierepro class="size-16 text-[#00005b] bg-[#9b9bfb] rounded-3xl " />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Audition */}
+                            <div class="flex justify-center items-center dark:bg-gray-800">
+                                <div class="relative cursor-pointer dark:text-white ">
+                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
+                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
+                                        <div className='' >
+                                            <h1 className='font-bold text-xs text-center'>Adobe <br /> Audition</h1>
+                                            <div className='flex justify-center'>
+                                                <SiAdobeaudition class="size-16 text-[#00005b] bg-[#9b9bfb] rounded-3xl " />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Vs Code */}
+                            <div class="flex justify-center items-center dark:bg-gray-800">
+                                <div class="relative cursor-pointer dark:text-white ">
+                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
+                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
+                                        <div className='' >
+                                            <h1 className='font-bold text-xs text-center'>VS <br /> Code</h1>
+                                            <div className='flex justify-center'>
+                                                <VscVscode class="size-16 text-[#00a9f6] " />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Word */}
+                            <div class="flex justify-center items-center dark:bg-gray-800">
+                                <div class="relative cursor-pointer dark:text-white ">
+                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
+                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
+                                        <div className='' >
+                                            <h1 className='font-bold text-xs text-center'>Microsoft <br /> Word</h1>
+                                            <div className='flex justify-center'>
+                                                <SiMicrosoftword class="size-16 text-[#1e61c0] " />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Excel */}
+                            <div class="flex justify-center items-center dark:bg-gray-800">
+                                <div class="relative cursor-pointer dark:text-white ">
+                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
+                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
+                                        <div className='' >
+                                            <h1 className='font-bold text-xs text-center'>Microsoft <br /> Excel</h1>
+                                            <div className='flex justify-center'>
+                                                <SiMicrosoftexcel class="size-16 text-[#10793f] " />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* PowerPoint */}
+                            <div class="flex justify-center items-center dark:bg-gray-800">
+                                <div class="relative cursor-pointer dark:text-white ">
+                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
+                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
+                                        <div className='' >
+                                            <h1 className='font-bold text-xs text-center'>Microsoft <br /> PowerPoint</h1>
+                                            <div className='flex justify-center'>
+                                                <SiMicrosoftpowerpoint class="size-16 text-[#b62f14] " />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Google Drive */}
+                            <div class="flex justify-center items-center dark:bg-gray-800">
+                                <div class="relative cursor-pointer dark:text-white ">
+                                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-lg dark:bg-gray-200"></span>
+                                    <div class="relative p-2 bg-white dark:bg-gray-800 border-l-2 border-t-2 rounded-lg  ">
+                                        <div className='' >
+                                            <h1 className='font-bold text-xs text-center'>Google <br /> Drive</h1>
+                                            <div className='flex justify-center'>
+                                                <img class="h-14 w-16 mt-2 " src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/800px-Google_Drive_icon_%282020%29.svg.png" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-
-
-
         </div>
     )
 }
 
-export default About
+export default Skill
+
