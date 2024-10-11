@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaBootstrap, FaCss3Alt, FaHtml5, FaNodeJs, FaSass } from "react-icons/fa";
+import { FaBootstrap, FaCss3Alt, FaHtml5, FaNodeJs} from "react-icons/fa";
 import { RiNextjsFill, RiReactjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import { SiAdobeaudition, SiAdobephotoshop, SiAdobepremierepro, SiJavascript, SiJquery, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoftword, SiMongodb, SiMysql, SiTypescript } from 'react-icons/si';
+import { SiAdobeaudition, SiAdobephotoshop, SiAdobepremierepro, SiJavascript, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoftword, SiMongodb, SiMysql, SiTypescript } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 
 const Skill = () => {

@@ -12,7 +12,6 @@ const Footer = () => {
                     <div class="max-w-3xl mx-auto space-y-3">
                         <div class="text-lg text-center flex-col space-y-4 md:flex-row md:gap-12 transition-all duration-500 py-6 mb-7 border-b border-gray-200">
                             <h1 className='text-2xl font-bold '>Contact Me</h1>
-                            {/* <h1 className='text-lg font-bold '>Let's Work Together</h1> */}
                             <div className='flex justify-center space-x-3 h-5 hover:scale-110 duration-500'>
                                 <h1 className='font-semibold text-sm text-[#343130]'>Email :</h1>
                                 <h1 className='font-semibold text-sm text-[#343130]'>thummarmehul114@gmail.com</h1>
